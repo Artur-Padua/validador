@@ -8,3 +8,6 @@
         "valid": "(true/false)" - indicando se o CPF/CNPJ é ou não válido.
         "requestTime": "(Date)" indicando a data e o momento que o servidor registrou a requisição.
         "numberToValidate": "(CPF/CNPJ)" - indicando qual foi o CPF/CNPJ da requisição.
+        
+   Using Tomcat 9.0
+         Maven dependencies
