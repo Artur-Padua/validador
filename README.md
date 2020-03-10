@@ -13,6 +13,8 @@
         "requestTime": "(Date)" indicando a data e o momento que o servidor registrou a requisição.
         "numberToValidate": "(CPF/CNPJ)" - indicando qual foi o CPF/CNPJ da requisição.
         
+   Using Eclipse IDE
+   
    Using Tomcat 9.0
    
    Using Maven dependencies
