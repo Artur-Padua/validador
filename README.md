@@ -10,7 +10,9 @@
         "numberToValidate": "(CPF/CNPJ)" - indicando qual foi o CPF/CNPJ da requisição.
         
    Using Tomcat 9.0
+   
    Using Maven dependencies
    
    Database not working properly, because databaseCreation method get called every request.
+   
    PostmanTestData.txt contains the import file for Postman Chrome plugin. Postman plugin was used to perform the tests.
