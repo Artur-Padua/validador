@@ -1,2 +1,10 @@
-# validador
-REST api for CPF/CNPJ validation
+# Webapi REST para validação de CPF e CNPJ
+    Para utilizar o serviço, mande uma requisição post no formato JSON com o CPF ou CNPJ, para a URI
+    http://localhost:8080/validador/webapi/validCPForCNPJ
+    Somente são aceitas requisições de usuários cadastrados com o Header de autenticação Basic (Authentication) devidamente preenchido.
+    O Header de tipo de conteudo (Content-Type) deve ser preenchido com application/json.
+    O conteudo da mensagem deve conter o par {"numberToValidate": "CPF/CNPJ"}
+    A resposta é retornada em JSON com os campos
+        "valid": "(true/false)" - indicando se o CPF/CNPJ é ou não válido.
+        "requestTime": "(Date)" indicando a data e o momento que o servidor registrou a requisição.
+        "numberToValidate": "(CPF/CNPJ)" - indicando qual foi o CPF/CNPJ da requisição.
