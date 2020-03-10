@@ -1,5 +1,5 @@
 # Webapi REST para validação de CPF e CNPJ
-    Para utilizar o serviço, mande uma requisição post no formato JSON com o CPF ou CNPJ, para a URI
+    Para utilizar o serviço, mande uma requisição Post no formato JSON com o CPF ou CNPJ, para a URI
     http://localhost:8080/validador/webapi/validCPForCNPJ
     Somente são aceitas requisições de usuários cadastrados com o Header de autenticação Basic (Authentication) devidamente preenchido.
     O Header de tipo de conteudo (Content-Type) deve ser preenchido com application/json.
