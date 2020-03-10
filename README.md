@@ -13,3 +13,4 @@
    Using Maven dependencies
    
    Database not working properly, because databaseCreation method get called every request.
+   PostmanTestData.txt contains the import file for Postman Chrome plugin. Postman plugin was used to perform the tests.
