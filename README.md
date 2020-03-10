@@ -10,4 +10,6 @@
         "numberToValidate": "(CPF/CNPJ)" - indicando qual foi o CPF/CNPJ da requisição.
         
    Using Tomcat 9.0
-         Maven dependencies
+   Using Maven dependencies
+   
+   Database not working properly, because databaseCreation method get called every request.
